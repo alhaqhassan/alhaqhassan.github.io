@@ -3,15 +3,15 @@ const Footer = () =>{
     return(
         <div>
             <div className="bg-white flex justify-between">
-                <div className="m-4 relative">
+                <div className="ml-4 mb-4 relative">
                     <a href="https://github.com/alhaqhassan/alhaqhassan.github.io" className="absolute bottom-0">
-                        <div className=" flex items-center gap-4  p-3 border-2 border-black">
+                        <div className=" flex items-center gap-4  p-2 border-2 border-black">
                             <svg width="37" viewBox="0 0 167 135" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M167 107.5C167 122.688 154.688 135 139.5 135C124.312 135 112 122.688 112 107.5C112 92.3122 124.312 80 139.5 80C154.688 80 167 92.3122 167 107.5ZM125.564 107.5C125.564 115.197 131.803 121.436 139.5 121.436C147.197 121.436 153.436 115.197 153.436 107.5C153.436 99.8035 147.197 93.5642 139.5 93.5642C131.803 93.5642 125.564 99.8035 125.564 107.5Z" fill="black" />
                                 <path d="M55 107.5C55 122.688 42.6878 135 27.5 135C12.3122 135 0 122.688 0 107.5C0 92.3122 12.3122 80 27.5 80C42.6878 80 55 92.3122 55 107.5ZM13.445 107.5C13.445 115.262 19.7376 121.555 27.5 121.555C35.2624 121.555 41.555 115.262 41.555 107.5C41.555 99.7376 35.2624 93.445 27.5 93.445C19.7376 93.445 13.445 99.7376 13.445 107.5Z" fill="black" />
                                 <path d="M165 33.5C165 48.6878 152.688 61 137.5 61C122.312 61 110 48.6878 110 33.5C110 18.3122 122.312 6 137.5 6C152.688 6 165 18.3122 165 33.5ZM123.445 33.5C123.445 41.2624 129.738 47.555 137.5 47.555C145.262 47.555 151.555 41.2624 151.555 33.5C151.555 25.7376 145.262 19.445 137.5 19.445C129.738 19.445 123.445 25.7376 123.445 33.5Z" fill="black" />
                                 <path d="M46 101H116V114H46V101Z" fill="black" />
-                                <path d="M55 108C81.7456 107.471 83.7416 100.897 86.5 89L91 65.5C94 53 95.3502 38.3506 102.5 36.5C111.437 34.1867 116.5 35.9743 116.5 34.3219" stroke="black" stroke-width="12" />
+                                <path d="M55 108C81.7456 107.471 83.7416 100.897 86.5 89L91 65.5C94 53 95.3502 38.3506 102.5 36.5C111.437 34.1867 116.5 35.9743 116.5 34.3219" stroke="black" strokeWidth="12" />
                             </svg>
                             <div className="font-bold text-xl">Fork</div>
                         </div>
@@ -26,7 +26,7 @@ const Footer = () =>{
                             <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z" />
                             </svg>
                         </div>
-                        <div>96070820138</div>
+                        <div>+91 96070820138</div>
                     </div>
                     <div className="flex gap-4 flex-row-reverse">
                         <div>
@@ -68,10 +68,10 @@ const Footer = () =>{
                     </a>
                 </div>
                 </div>
-                <div className="flex justify-center" style={{wordSpacing:'3px'}}>
+                <div className="flex justify-center pb-3" style={{wordSpacing:'3px'}}>
                     Made with 
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="red"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
-                    by <span className="font-bold"> Ahmad </span>
+                    by <span className="font-bold">Ahmad </span>
                 </div>
 
         </div>
